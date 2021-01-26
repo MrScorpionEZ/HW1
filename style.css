@@ -9,7 +9,7 @@
     color: black;
     }
     a:hover {
-    color: orange;
+    color: rgb(250, 12, 218);
     }
     
     footer {
@@ -22,3 +22,61 @@
     footer span {
     font-weight: 900;
     } 
+
+    header{
+        background-image: url(cska_header.png);
+    }
+
+    ul {
+        display: block;
+        margin: 0;
+        padding: 5px;
+        list-style: none;
+     }
+    ul:after {
+            display: block;
+            content: ' ';
+            clear: both;
+            float: none;
+           }
+    ul.menu > li {
+                border: 1px solid black;
+                width:33%;
+                float: left;
+                position: relative;
+               }
+    ul.menu > li > a {
+                    display: block;
+                    padding: 10px;
+                    color: white;
+                    background-image: url(fon.jpg);
+                    text-decoration: none;
+                   }
+    ul.menu > li > a:hover {
+                           background-color: white;
+                         }
+    ul.submenu {
+              display: none;
+              position: absolute;
+              width: 97%;
+              top: 37px;
+              left: 0;
+              
+              border: 0px solid black;
+             }
+    ul.submenu > li {
+                   display: block;
+                  }
+    ul.submenu > li > a {
+                       display: block;
+                       padding: 10px;
+                       color: white;
+                       background-image: url(fon.jpg);
+                       text-decoration: none;
+                      }
+    ul.submenu > li > a:hover {
+                             text-decoration: underline;
+                            }
+    ul.menu > li:hover > ul.submenu {
+                                   display: block;
+                                  }
