@@ -31,7 +31,7 @@
     ul {
         display: block;
         margin: 0;
-        padding: 30px;
+        padding: 13%;
         list-style: none;
      }
     ul:after {
@@ -41,8 +41,8 @@
             float: none;
            }
     ul.menu > li {
-                border: 1px solid black;
-                width:10%;
+                border: 2px solid black;
+                width:30%;
                 float: left;
                 position: relative;
                }
@@ -59,10 +59,8 @@
     ul.submenu {
               display: none;
               position: absolute;
-              width: 97%;
-              top: 37px;
-              left: 0;
-              
+              width: 89%;
+              top: 1px;
               border: 0px solid black;
              }
     ul.submenu > li {
