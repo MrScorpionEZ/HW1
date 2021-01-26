@@ -24,7 +24,7 @@
     } 
 
     header{
-        background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/cska_header.png);
+        background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/cska_header.png?raw=true);
         background-color: #555;
     }
 
@@ -50,7 +50,7 @@
                     display: block;
                     padding: 10px;
                     color: white;
-                    background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg);
+                    background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg?raw=true);
                     text-decoration: none;
                    }
     ul.menu > li > a:hover {
@@ -72,7 +72,7 @@
                        display: block;
                        padding: 10px;
                        color: white;
-                       background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg);
+                       background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg?raw=true);
                        text-decoration: none;
                       }
     ul.submenu > li > a:hover {
