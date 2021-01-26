@@ -9,7 +9,7 @@
     color: black;
     }
     a:hover {
-    color: orange;
+    color: rgb(250, 12, 218);
     }
     
     footer {
@@ -22,3 +22,60 @@
     footer span {
     font-weight: 900;
     } 
+
+    header{
+        background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/cska_header.png?raw=true);
+        background-color: #555;
+    }
+
+    ul {
+        display: block;
+        margin: 0;
+        padding: 13%;
+        list-style: none;
+     }
+    ul:after {
+            display: block;
+            content: ' ';
+            clear: both;
+            float: none;
+           }
+    ul.menu > li {
+                border: 2px solid black;
+                width:30%;
+                float: left;
+                position: relative;
+               }
+    ul.menu > li > a {
+                    display: block;
+                    padding: 10px;
+                    color: white;
+                    background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg?raw=true);
+                    text-decoration: none;
+                   }
+    ul.menu > li > a:hover {
+                           background-color: white;
+                         }
+    ul.submenu {
+              display: none;
+              position: absolute;
+              width: 89%;
+              top: 1px;
+              border: 0px solid black;
+             }
+    ul.submenu > li {
+                   display: block;
+                  }
+    ul.submenu > li > a {
+                       display: block;
+                       padding: 10px;
+                       color: white;
+                       background-image: url(https://github.com/MrScorpionEZ/HW1/blob/header/fon.jpg?raw=true);
+                       text-decoration: none;
+                      }
+    ul.submenu > li > a:hover {
+                             text-decoration: underline;
+                            }
+    ul.menu > li:hover > ul.submenu {
+                                   display: block;
+                                  }
